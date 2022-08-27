@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>HealHub - Demo</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("unityContainer", "Build/AwareWolf.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body style="background-color: rgb(214, 241, 213); font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+    <div>
+      <h1 style="text-align:center;">HealHub</h1>
+  </div>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 75vw; height: 80vh"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">HealHub</div>
+      </div>
+      <div style="padding:5%">
+        
+        <br/>
+        <p><h3 style="color: rgba(255, 16, 128, 0.938);">
+        This is a visually guided VR meditation expreience.
+        It has options for listening to ambient music, breathing cycle, or relaxing
+        chants as per user's preferance.
+        It is based on yoga practises such as chakra breathing and energy grounding. It utilizes a dynamic and interactive biofield model for visually guided meditation techniques.
+        </h3></p>
+          <br/>
+          <p><b style="color: rgba(255, 16, 128, 0.938); font-size: large;">Usage:</b> 
+            <li>Mostly follow along in your own body. </li>
+            <li>Tap on the left/right side of the screen to change areas. Drag left/right to adjust view. </li>
+          <li>Right Yogi - demonstrates the active breathing and visualization technique.</li>
+          <li>Left Yogi - shows the detail of a particular activity, move mouse to select chakra/area.</li>
+          <li>Book (down and to the right) - click side tabs to change the activity. </li>
+          <li>Menu- To start guided meditation and turn on/off ambient music. </li>
+          </p>
+          <br/>
+          
+          <p><b style="color: rgba(255, 16, 128, 0.938); font-size: large;">Include activities:</b> 
+            <li>Opening Breath - basic and recharging technique.</li>
+            <li>Meridians - configurable breathing in/out of each meridian.</li>
+            <li>Grounding Breath - used to clear legs and spine. </li>
+            <li>Chakra Breath (majors) - cycles one breath per Chakra. </li>
+            <li>Chi Ball Breath - charge up then absorb Chi at the Hara. </li>
+            </p>
+        </p>
+        <br/>
+      </div>
+
+    </div>
+
+  </body>
+</html>
